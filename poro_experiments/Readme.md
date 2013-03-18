@@ -1,6 +1,7 @@
 # Output
 
 basic_object_vs_simple_delegator.rb
+---
 
     Basic Object Time taken : 51.072  millisecs
     SimpleDelegator Time taken : 123.621  millisecs
@@ -8,6 +9,7 @@ basic_object_vs_simple_delegator.rb
 
 
 basic_object_poro.rb
+---
 
     GC.stat prior {:count=>1,
         :heap_used=>43,
@@ -28,6 +30,7 @@ basic_object_poro.rb
         :heap_final_num=>0}
 
 vanilla_poro.rb
+---
 
     GC.stat prior {:count=>1,
         :heap_used=>43,
@@ -48,6 +51,7 @@ vanilla_poro.rb
         :heap_final_num=>0}
 
 simple_delegate_delegator.rb
+---
 
     GC.stat prior {:count=>1,
         :heap_used=>43,
