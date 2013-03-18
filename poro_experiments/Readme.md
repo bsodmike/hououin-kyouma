@@ -46,3 +46,23 @@ vanilla_poro.rb
         :heap_live_num=>4927,
         :heap_free_num=>12651,
         :heap_final_num=>0}
+
+simple_delegate_delegator.rb
+
+    GC.stat prior {:count=>1,
+        :heap_used=>43,
+        :heap_length=>43,
+        :heap_increment=>0,
+        :heap_live_num=>7146,
+        :heap_free_num=>10415,
+        :heap_final_num=>4}
+
+    Decorating an object 1000000 times took 0.828707 millisecs
+
+    GC.stat after {:count=>81,
+        :heap_used=>43,
+        :heap_length=>43,
+        :heap_increment=>0,
+        :heap_live_num=>4933,
+        :heap_free_num=>12647,
+        :heap_final_num=>0}
